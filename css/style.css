@@ -78,6 +78,9 @@ body{
 }
 
 /* footer styles */
+footer{  
+    padding: 100px 0 60px;
+}
 .footer-area{
     width: 480px;
     margin: 0 auto;
