@@ -1,0 +1,90 @@
+/* --------------------------
+        Media Queries 
+-----------------------------*/
+
+/* Mobile devices */
+@media only screen and (max-width:688px){
+
+    /* Utilities */
+    main{
+        display: block;
+    }
+    body{
+        width: 100%;
+    }
+    
+
+    /* top banner styles */
+    .top-banner{
+        padding: 100px 0 50px ;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-area{
+        margin: 0 60px 0 16px;
+    }
+    .left-area h1{
+        font-size: 40px;
+        line-height: 56px;
+    }
+    #watch-button:hover{
+        padding: 10px 90px;
+    }
+    .right-area{
+        margin: 50px 16px 0;
+    }
+    .right-area .player-img{
+        width: 330px;
+    }
+
+    /* players information styles */
+    .player-info{
+        width: 100%;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 24px;
+    }
+    .player{
+        margin-left: 3%;
+    }
+
+    /* gallery styles */  
+    .gallery{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5px;
+    }
+    .gallery .horizonal-img{
+        grid-column: auto / span 1;
+    }
+
+        
+    /* sponsors styles */
+    .sponsors-area h1{
+        text-align: center;
+    }
+    .sponsors{
+        flex-direction: column;
+    }
+    .sponsors img{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    /* footer styles */
+    .footer-area img{
+        width: 270px;
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
