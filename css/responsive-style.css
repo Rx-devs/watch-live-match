@@ -2,10 +2,15 @@
         Media Queries 
 -----------------------------*/
 
-/* Mobile devices */
+
+/*---------------------------
+        Mobile devices
+----------------------------*/
 @media only screen and (max-width:688px){
 
-    /* Utilities */
+    /*--------------------
+        common styles 
+    --------------------*/
     main{
         display: block;
     }
@@ -13,24 +18,25 @@
         width: 100%;
     }
     
-
-    /* top banner styles */
+    /*----------------------
+        top banner styles 
+    ----------------------*/
     .top-banner{
-        padding: 100px 0 50px ;
+        padding: 80px 0 50px ;
     }
-    .container{
-        display: flex;
+    .banner-area{
         flex-direction: column;
     }
     .left-area{
         margin: 0 60px 0 16px;
     }
-    .left-area h1{
+    .left-area .left-area-title{
         font-size: 40px;
         line-height: 56px;
     }
     #watch-button:hover{
-        padding: 10px 90px;
+        padding: 10px 50px;         
+        transition: padding 1s ease-in-out .3s;
     }
     .right-area{
         margin: 50px 16px 0;
@@ -39,19 +45,21 @@
         width: 330px;
     }
 
-    /* players information styles */
-    .player-info{
-        width: 100%;
+    /*--------------------------------
+        players information styles  
+    --------------------------------*/
+    .players-info{
+        width: 100%;    
     }
-    .grid-container{
+    .players{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 24px;
-    }
-    .player{
-        margin-left: 3%;
+        justify-items: center;
     }
 
-    /* gallery styles */  
+    /*--------------------
+        gallery styles
+    --------------------*/
     .gallery{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 5px;
@@ -61,10 +69,9 @@
     }
 
         
-    /* sponsors styles */
-    .sponsors-area h1{
-        text-align: center;
-    }
+    /*--------------------
+        sponsors styles
+    --------------------*/
     .sponsors{
         flex-direction: column;
     }
@@ -73,7 +80,9 @@
         margin-right: 0;
     }
 
-    /* footer styles */
+    /*--------------------
+        footer styles 
+    --------------------*/
     .footer-area img{
         width: 270px;
         padding-left: 0;
