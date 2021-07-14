@@ -76,3 +76,24 @@ body{
     color: #6C6C6C;
     margin: 10px 0;
 }
+
+/* footer styles */
+.footer-area{
+    width: 480px;
+    margin: 0 auto;
+    padding: 150px 0 60px;
+    text-align: center;
+}
+.footer-area img{
+    width: 80%;
+    padding-left:10px;
+}
+.social-icons{
+    margin: 20px 0;
+}
+.social-icons i{
+    margin-right: 14px;
+}
+.social-icons i:last-child{
+    margin-right: 0;
+}
