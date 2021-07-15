@@ -34,9 +34,8 @@
         font-size: 40px;
         line-height: 56px;
     }
-    #watch-button:hover{
-        padding: 10px 50px;         
-        transition: padding 1s ease-in-out .3s;
+    .left-area:hover ~ .right-area{
+        transform: scale(1.2) translateX(10px);
     }
     .right-area{
         margin: 50px 16px 0;
